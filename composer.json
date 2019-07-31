@@ -1,5 +1,5 @@
 {
-  "name": "adele/command",
+  "name": "adele/addcss",
   "description": "Magento 2 add custom CSS file for loged in customer.",
   "require": {
   },
