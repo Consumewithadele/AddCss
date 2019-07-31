@@ -1,0 +1,20 @@
+{
+  "name": "adele/command",
+  "description": "Magento 2 add custom CSS file for loged in customer.",
+  "require": {
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Adele\\Command\\": ""
+    }
+  }
+}
