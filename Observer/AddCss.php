@@ -25,6 +25,11 @@ class AddCss implements ObserverInterface
     }
 
     /**
+     * solution like https://magento.stackexchange.com/questions/235177/how-to-check-whether-the-customer-logged-in-using-events-observer
+     * doesn't work with enables FPC. So, we use controller_front_send_response_before event
+     */
+
+    /**
      * @param Observer $observer
      *
      * @return void
